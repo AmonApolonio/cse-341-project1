@@ -1,0 +1,5 @@
+### Get all users
+GET https://project1-djep.onrender.com/users
+
+### Get single user by ID
+GET https://project1-djep.onrender.com/users/67cb7ad01e3f2a67bfb9c608
