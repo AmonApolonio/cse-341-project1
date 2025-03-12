@@ -8,20 +8,22 @@ GET http://localhost:3000/users/67cb7ad01e3f2a67bfb9c608
 POST http://localhost:3000/users
 Content-Type: application/json
 {
+  "firstName": "New",
+  "lastName": "User",
   "email": "newuser@example.com",
-  "username": "newuser",
-  "name": "New User",
-  "ipaddress": "192.168.1.1"
+  "favoriteColor": "Blue",
+  "birthday": "1990-01-01"
 }
 
 ### Update an existing user
 PUT http://localhost:3000/users/67cb7ad01e3f2a67bfb9c608
 Content-Type: application/json
 {
+  "firstName": "Updated",
+  "lastName": "User",
   "email": "updateduser@example.com",
-  "username": "updateduser",
-  "name": "Updated User",
-  "ipaddress": "192.168.1.2"
+  "favoriteColor": "Green",
+  "birthday": "1990-01-02"
 }
 
 ### Delete a user
